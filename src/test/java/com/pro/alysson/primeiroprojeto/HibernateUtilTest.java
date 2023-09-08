@@ -1,7 +1,7 @@
 package com.pro.alysson.primeiroprojeto;
 
 import org.hibernate.Session;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class HibernateUtilTest {
 	@Test
