@@ -15,7 +15,7 @@ import javax.persistence.TemporalType;
 public class Venda extends GenericDomain {
 	@Column(nullable = false)
 	@Temporal(TemporalType.TIMESTAMP)
-	private Date horario;
+	private Date horarioVenda;
 
 	@Column(nullable = false, precision = 7, scale = 2)
 	private BigDecimal precoTotal;
@@ -28,11 +28,11 @@ public class Venda extends GenericDomain {
 	private Funcionario funcionario;
 
 	public Date getHorario() {
-		return horario;
+		return horarioVenda;
 	}
 
 	public void setHorario(Date horario) {
-		this.horario = horario;
+		this.horarioVenda = horario;
 	}
 
 	public BigDecimal getPrecoTotal() {

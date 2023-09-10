@@ -34,18 +34,18 @@
 		<property name="hibernate.show_sql">true</property>
 
 		<!-- Cria as tabelas do banco de dados -->
-		<property name="hibernate.hbm2ddl.auto">create</property>
+		<property name="hibernate.hbm2ddl.auto">validate</property>
 
-		<mapping class="br.pro.delfino.drogaria.domain.Cidade" />
-		<mapping class="br.pro.delfino.drogaria.domain.Cliente" />
-		<mapping class="br.pro.delfino.drogaria.domain.Estado" />
-		<mapping class="br.pro.delfino.drogaria.domain.Fabricante" />
-		<mapping class="br.pro.delfino.drogaria.domain.Funcionario" />
-		<mapping class="br.pro.delfino.drogaria.domain.ItemVenda" />
-		<mapping class="br.pro.delfino.drogaria.domain.Pessoa" />
-		<mapping class="br.pro.delfino.drogaria.domain.Produto" />
-		<mapping class="br.pro.delfino.drogaria.domain.Usuario" />
-		<mapping class="br.pro.delfino.drogaria.domain.Venda" />
+		<mapping class="com.pro.alysson.primeiroprojeto.domain.Cidade" />
+		<mapping class="com.pro.alysson.primeiroprojeto.domain.Cliente" />
+		<mapping class="com.pro.alysson.primeiroprojeto.domain.Estado" />
+		<mapping class="com.pro.alysson.primeiroprojeto.domain.Fabricante" />
+		<mapping class="com.pro.alysson.primeiroprojeto.domain.Funcionario" />
+		<mapping class="com.pro.alysson.primeiroprojeto.domain.ItemVenda" />
+		<mapping class="com.pro.alysson.primeiroprojeto.domain.Pessoa" />
+		<mapping class="com.pro.alysson.primeiroprojeto.domain.Produto" />
+		<mapping class="com.pro.alysson.primeiroprojeto.domain.Usuario" />
+		<mapping class="com.pro.alysson.primeiroprojeto.domain.Venda" />
 
 	</session-factory>
 
