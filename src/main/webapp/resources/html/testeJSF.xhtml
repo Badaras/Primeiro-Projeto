@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> -->
+<!-- <link rel="stylesheet" type="text/css" href="css/Global.css" /> -->
+<link rel="stylesheet" type="text/css" href="#{resource['css/Global.css']}" />
+<title>Login Dark/Light Mode</title>
+</head>
+<body>
+	<main id="container">
+		<form id="login_form">
+			<!-- FORM HEADER -->
+			<div id="form_header">
+				<h1>Login</h1>
+				<i id="mode_icon" class="fa-solid fa-moon"></i>
+			</div>
+				
+				<div id="topo" class="divTopo">
+			<p:graphicImage library="images" name="banner.jpg"
+				styleClass="imagemCentralizada" />
+		</div>
+			<!-- SOCIAL MEDIA LINKS -->
+			<div id="social_media">
+				<!-- GOOGLE -->
+				<a href="#"> 
+				<img src="#{resource['imagens/facebook.png']}" alt="Facebook" />
+				</a>
+				 <!-- GOOGLE -->
+                <a href="#">
+                    <img src="#{resource['imagens/google.png']}" alt="Google"/>
+                </a>
+                
+                <!-- GITHUB -->
+                <a href="#">
+                    <img src="#{resource['imagens/github.png']}" alt="github"/>
+                </a>
+			</div>
+
+			<!-- INPUTS -->
+			<div id="inputs">
+				<!-- NAME -->
+				<div class="input-box">
+					<label for="name"> Name </label>
+					<div class="input-field">
+						<i class="fa-solid fa-user"></i> <input type="text" id="name"
+							name="name" />
+					</div>
+				</div>
+
+				<!-- EMAIL -->
+				<div class="input-box">
+					<label for="email"> E-mail </label>
+					<div class="input-field">
+						<i class="fa-solid fa-envelope"></i> <input type="email"
+							id="email" name="email" />
+					</div>
+				</div>
+
+				<!-- PASSWORD -->
+				<div class="input-box">
+					<label for="password"> Password </label>
+					<div class="input-field">
+						<i class="fa-solid fa-key"></i> <input type="password"
+							id="password" name="password" />
+					</div>
+					<!-- FORGOT PASSWORD -->
+					<div id="forgot_password">
+						<a href="#"> Forgot your password? </a>
+					</div>
+				</div>
+			</div>
+
+			<!-- LOGIN BUTTON -->
+			<button type="submit" id="login_button">Login</button>
+		</form>
+	</main>
+
+	<!-- JAVASCRIPT -->
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

@@ -62,5 +62,12 @@
 			<version>2.2.12</version>
 		</dependency>
 
+		<!-- Prime Faces -->
+		<dependency>
+			<groupId>org.primefaces</groupId>
+			<artifactId>primefaces</artifactId>
+			<version>11.0.0</version>
+		</dependency>
+
 	</dependencies>
 </project>
